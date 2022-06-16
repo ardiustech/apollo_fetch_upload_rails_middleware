@@ -37,7 +37,7 @@ module ApolloFetchUploadRailsMiddleware
               file_to_variables_map,
               file_to_metadata_map,
               gql_operation['variables'],
-              batch_index: idx,
+              batch_idx: idx,
             )
           end
 
